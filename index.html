@@ -72,6 +72,49 @@
 
   </div>
 
+  <div class=" blue lighten-1 row" id="repo-list">
+
+       <script id="repo-template" type="text/x-handlebars-template">
+
+           {{#each repos}} {{repo}}
+           <div class="col s12 m6">
+
+               <div class="card blue-grey darken-1">
+
+                   <div class="card-content white-text">
+
+                       <span class="card-title">{{name}}</span>
+
+                       <p>{{description}}</p>
+
+                   </div>
+
+                   <div class="card-action">
+
+                       <a href="{{html_url}}">This is a link</a>
+
+                       <a href="#">This is a link</a> {{#if language}}
+
+                       <div class="chip">
+
+                           <img src="images/{{language}}.png" alt="languages"> {{language}}
+
+                       </div>
+
+                       {{/if}}
+
+                   </div>
+
+               </div>
+
+           </div>
+
+           {{/each}}
+       </script>
+
+   </div>
+
+
 </body>
 
 
