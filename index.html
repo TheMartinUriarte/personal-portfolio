@@ -1,128 +1,219 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <<!-- Meta
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <title>Martin Uriarte</title>
 
-  <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="vendor/css/normalize.css">
 
-  <meta name="description" content="Personal Site">
-
-  <meta name="author" content="GA Student">
-
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-
-  <title>Martin Uriarte</title>
-
-
-  <!-- Mobile Specific Metas
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
-  <!-- Fonts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- None at this moment -->
-
-
-  <!-- CSS
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
-
-	<!-- Scripts
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<!-- Favicon
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="assets/imgs/UriarteCrest.png" width="32px" height="32px" alt="Uriarte Crest">
-
-
+    <link rel="icon" type="image/png" href="assets/imgs/UriarteCrest.png" width="32px" height="32px" alt="Uriarte Crest">
 </head>
 
 <body>
-
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<!-- Intro page -->
-  <div id="page-wrapper">
-
-    <header id="banner">
-
-      <nav class="clearfix">
-
-        <ul>
-
-          <li><a href="#">About Me</a></li>
-
-          <li><a href="#">Projects</a></li>
-
-          <li><a href="mailto:themartinuriarte.programmer@gmail.com">Contact Me</a></li>
-
-          <li><a href="http://www.github.com/themartinuriarte">GitHub</a></li>
-
-          <li><a href="http://www.linkedin.com/in/themartinuriarte">LinkedIn</a></li>
-
-        </ul>
-
-      </nav>
-
-      <img src="assets/imgs/UriarteCrest.png" class="bannerLogo footerLogo" alt="Uriarte Crest">
-
-    </header>
-
-  </div>
-
-
-<!-- End Document
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class=“container”>
-
-     <div class=“row”>
-
-          <div class=“input-group”>
-
-               <div class=“input-group-btn”>
-
-                    <button type=“button” class=“btn btn-default dropdown-toggle” data-toggle=“dropdown”>My Work
-
-                    <span class=“caret”></span> (Downwards arrow)
-
-                    <ul class=“dropdown-menu”>
-
-                         <li><a href=“#”>HW #2 - Function-Exercises</a>
-
-                         <li><a href=“#”>HW #3 - Tic-Tac-Toe</a>
-
-                         <li><a href=“#”>HW #4 - JS-Objects-Training</a>
-
-
+    <div>
+        <nav class="navbar navbar-default navbar-fixed-top navigation-clean-button">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Martín Uriarte </a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="#"><strong>About</strong> </a></li>
+                        <li role="presentation"><a href="#"><strong>Skills</strong> </a></li>
+                        <li role="presentation"><a href="#"><strong>Project</strong> </a></li>
+                        <li role="presentation"><a href="#"><strong>Contact</strong> </a></li>
+                        <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"><strong>Projects </strong><span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="#">Featured </a></li>
+                                <li role="presentation"><a href="#">General Assembly</a></li>
+                                <li role="presentation"><a href="#">WP_Websites</a></li>
+                            </ul> -->
+                        </li>
                     </ul>
+                    <p class="navbar-text navbar-right actions" style="margin-bottom:7px;float:right;display:block;"> </p>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-               </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center"><strong><span style="text-decoration: underline;">ABOUT</span></strong> </h2></div>
+            </div>
+        </div>
+    </div>
 
-               <input type=“text” class=“form-control”>
+    <img class="img-responsive" src="assets/imgs/hustlePortfolioImage2.jpg">
 
-          </div>
+    <h2 class="text-center"><strong><span style="text-decoration: underline;">ABOUT</span></strong> </h2>
 
-     </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead text-center">"There's nothing you can't do." A saying that I've heard throughout my life, growing up as a nerdy, tri-racial, spanish-speaking kid in K-Town Los Angeles, and I believed every word of it. I attribute this saying with motivating me
+                        towards many successes, but there is no greater feeling of accomplishment for me than being a Web Developer in the SF Bay Area, creating something from beginning to end that helps others and can be seen and appreciated. Finding
+                        this path, which holds an endless journey of excitement and challenges, has forced me, and the teams I have worked with, to think creatively and produce greatness. I eventually found my family's saying to be flawed. With the help
+                        of others, not only could I go further in my life, but together we can create amazing things. While some things never change and I will always be the same nerdy guy, I now live my life by the saying "There's nothing WE can't do",
+                        and I believe it! So how about it? Let's make something great. </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</div>
+    <div class="features-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center"><strong><span style="text-decoration: underline;">SKILLS</span></strong></h2>
+                <p class="text-nowrap text-center">"If my mind can conceive it, and my heart can believe it, then I can achieve it."</p>
+            </div>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 item"><i class="material-icons icon">language</i>
+                    <h3 class="text-center name">LANGUAGES </h3>
+                    <ul>
+                        <li>HTML </li>
+                        <li>CSS </li>
+                        <li>SASS </li>
+                        <li>JavaScript </li>
+                        <li>Ruby </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="material-icons icon">assignment</i>
+                    <h3 class="text-center name">FRAMEWORKS </h3>
+                    <ul>
+                        <li>Bootstrap </li>
+                        <li>Handlebars </li>
+                        <li>Express </li>
+                        <li>Angular </li>
+                        <li>Ruby on Rails</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="material-icons icon">laptop_mac</i>
+                    <h3 class="text-center name">TECHNOLOGIES </h3>
+                    <ul>
+                        <li>Git </li>
+                        <li>GitHub </li>
+                        <li>API's </li>
+                        <li>jQuery </li>
+                        <li>MongoDB </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <img class="img-responsive" src="assets/img/projectPortfolioImage2.jpg">
+
+    <h2 class="text-center"><strong><span style="text-decoration: underline;">PROJECTS</span></strong></h2>
+
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <p class="text-center">"Creativity is intelligence having fun"</p>
+            </div>
+            <div class="row projects">
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#"><img class="img-rounded img-responsive" src="assets/img/portfolio_rbrDuck.png"></a>
+                        </div>
+                        <div class="col-md-12">
+                            <h3 class="text-center name">RBR Duck <em>- Ver. 1.0</em></h3>
+                            <p class="text-center description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#"><img class="img-responsive" src="assets/img/portfolio_tipsyTraveller.png"></a>
+                        </div>
+                        <div class="col-md-12">
+                            <h3 class="text-center name">Tipsy Traveller <em>- Ver. 1.0</em></h3>
+                            <p class="text-center description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#"><img class="img-responsive" src="assets/img/portfolio_kaizen.png"></a>
+                        </div>
+                        <div class="col-md-11">
+                            <h3 class="text-center name">Kaizen <em>- In Progress</em></h3>
+                            <p class="text-center description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+    </div>
+
+    <img class="img-responsive" src="assets/img/contactPortfolioImage2.jpg">
+
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center"><strong><span style="text-decoration: underline;">CONTACT</span></strong></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-unstyled text-center">
+                      <li>LINKEDIN: www.linkedin.com/in/themartinuriarte</li>
+                      <li>EMAIL: themartinuriarte.programmer@gmail.com</li>
+                      <li>GITHUB: www.github.com/TheMartinUriarte</li>
+                      <li>PHONE: (707)703-7070</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/themartinuriarte" data-bs-hover-animate="bounce"><i class="icon ion-social-linkedin"></i></a>
+              <a href="https://github.com/TheMartinUriarte" data-bs-hover-animate="bounce"><i class="icon ion-social-github"></i></a>
+              <a href="mailto:themartinuriarte.programmer@gmail.com" data-bs-hover-animate="bounce"><i class="icon ion-ios-email"></i></a>
+              <a href="#" data-bs-hover-animate="bounce"><i class="icon ion-ios-paper"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li> </li>
+                <li><a href="#">Home</a></li>
+                <li> </li>
+                <li><a href="#">About </a></li>
+                <li> </li>
+                <li><a href="#">Skills </a></li>
+                <li> </li>
+                <li><a href="#">Projects </a></li>
+                <li></li>
+            </ul>
+            <p class="copyright">Martin Uriarte © 2017</p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
 </body>
 
